@@ -57,3 +57,24 @@ Then visit `http://localhost:3000`
 - HTML5
 - Tailwind CSS (CDN)
 - Custom CSS
+
+## Deploy to Vercel
+
+This is a **static site** — no build step required.
+
+**Vercel project settings:**
+
+| Setting | Value |
+|---|---|
+| Framework Preset | Other |
+| Build Command | *(empty)* |
+| Output Directory | `.` |
+| Install Command | *(empty)* |
+
+The repo includes `vercel.json` with these settings. Push to GitHub and redeploy.
+
+```bash
+git add .
+git commit -m "Fix Vercel static deployment"
+git push
+```
