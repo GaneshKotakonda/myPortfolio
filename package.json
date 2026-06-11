@@ -1,0 +1,11 @@
+{
+  "name": "ganesh-reddy-portfolio",
+  "version": "1.0.0",
+  "description": "K. Ganesh Reddy — Developer Portfolio (HTML + Tailwind CSS)",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
